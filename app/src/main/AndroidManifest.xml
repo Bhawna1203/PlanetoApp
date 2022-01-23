@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.planetoland">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_saturn"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_saturn"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PlanetoLand">
+        <activity
+            android:name=".splashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name=".finalActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlanetDetails"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>
